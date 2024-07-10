@@ -179,3 +179,27 @@ header a button {
     cursor: pointer;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-icons {
+    display: flex;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
+
+footer .social-icons img {
+    width: 20px;
+    height: auto;
+}
